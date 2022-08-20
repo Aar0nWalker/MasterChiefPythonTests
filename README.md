@@ -22,4 +22,5 @@ We need brownie and ganache installed, then:
 Open second terminal and type:
 
 All tests - `brownie test -s`
+
 Target test - `brownie test -s -k test_account_balance`, test_account_balance is your test name from test_contract.py
