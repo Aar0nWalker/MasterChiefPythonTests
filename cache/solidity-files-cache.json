@@ -1,0 +1,630 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\Address.sol": {
+      "lastModificationDate": 1660961393057,
+      "contentHash": "bf3f0a6efb5973ee3ef5e3441761fc30",
+      "sourceName": "contracts/Address.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\SafeBEP20.sol": {
+      "lastModificationDate": 1660961393067,
+      "contentHash": "d2456529d06d3bdca44a2c2eafd1d277",
+      "sourceName": "contracts/SafeBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Address.sol",
+        "./IBEP20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "SafeBEP20"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\IBEP20.sol": {
+      "lastModificationDate": 1660961393060,
+      "contentHash": "d7531071d00d6feaf789699d718734e5",
+      "sourceName": "contracts/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\BEP20.sol": {
+      "lastModificationDate": 1660961393058,
+      "contentHash": "c314536863d92631312ddce013eec260",
+      "sourceName": "contracts/BEP20.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol",
+        "./IBEP20.sol",
+        "./Ownable.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "BEP20"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\Context.sol": {
+      "lastModificationDate": 1660961393059,
+      "contentHash": "744ca2c4a7e22b94e8903e542ff1c0de",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1660961393064,
+      "contentHash": "7ad77dba34da5159d20bb2b5fe0a6cd4",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\NarfexToken.sol": {
+      "lastModificationDate": 1660961393063,
+      "contentHash": "741e258830555c4e51e24e26046530fa",
+      "sourceName": "contracts/NarfexToken.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "NarfexToken"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\MasterChef.sol": {
+      "lastModificationDate": 1660961393062,
+      "contentHash": "1f9b2d7ff566bbfef05faef2da8b8e20",
+      "sourceName": "contracts/MasterChef.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ReentrancyGuard.sol",
+        "./Ownable.sol",
+        "./SafeBEP20.sol",
+        "./BEP20.sol",
+        "./IPancakePair.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "MasterChef"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1660961393066,
+      "contentHash": "4b554da1002517e1faef725af818c25c",
+      "sourceName": "contracts/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\IPancakePair.sol": {
+      "lastModificationDate": 1660961393061,
+      "contentHash": "10bdec521076e99a639059ddfa23027b",
+      "sourceName": "contracts/IPancakePair.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12 <0.9.0"
+      ],
+      "artifacts": [
+        "IPancakePair"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\contracts\\Token.sol": {
+      "lastModificationDate": 1660961393068,
+      "contentHash": "64e756fe58a191f00b2ee1bc556887dc",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-contracts/contracts/access/Ownable.sol",
+        "openzeppelin-contracts/contracts/utils/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1660957991529,
+      "contentHash": "92cc1aad41bdb18ca20f6e03f461de7d",
+      "sourceName": "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1660957991563,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "openzeppelin-contracts/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\utils\\math\\SafeMath.sol": {
+      "lastModificationDate": 1660957991582,
+      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+      "sourceName": "openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1660957991529,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1660957991532,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\1\\Desktop\\zy\\openzeppelin-contracts\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1660957991588,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    }
+  }
+}
