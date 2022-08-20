@@ -1,7 +1,0 @@
-module.exports = {
-	bsc: {
-		address: '0x509008d8F4343c50A974F2d4011C7ff8Cb1015c4',
-		privateKey: '7620471aeb51b6ef6d79a9a9968bf6931699f016fdf253d12f7272fe2ed9721e'
-	},
-	bscscan: '78V5ZXWN21GHWEQFK8TERTZYGKZ84JQZM1',
-};
